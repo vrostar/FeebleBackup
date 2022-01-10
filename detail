@@ -1,7 +1,7 @@
 <?php
 //Require database in this file
 /** @var $db */
-require_once "reservations/database.php";
+require_once "database.php";
 
 //If the ID isn't given, redirect to the homepage
 if (!isset($_GET['id']) || $_GET['id'] === '') {
