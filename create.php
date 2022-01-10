@@ -4,7 +4,7 @@
 //Check if Post isset, else do nothing
 if (isset($_POST['submit'])) {
     //Require database in this file & image helpers
-    require_once "database";
+    require_once "database.php";
 
     //Postback with the data showed to the user, first retrieve data from 'Super global'
     $name   = mysqli_escape_string($db, $_POST['name']);
